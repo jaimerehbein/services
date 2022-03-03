@@ -1,0 +1,63 @@
+.aspect-ratio--4x6 {
+    padding-bottom: 150%;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    transition: color .15s ease-in;
+}
+
+.link:active {
+    transition: color .15s ease-in;
+}
+
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+}
+
+.grow:hover, .grow:focus {
+    transform: scale(1.05);
+}
+
+.grow:active {
+    transform: scale(.9);
+}
+
+@media screen and (min-width: 60em) {
+    .w-25-l {
+        width: 25%;
+    }
+}
+
+.team-wrapper {
+    border-radius: 10px;
+}
